@@ -24,15 +24,15 @@ public class CalculadoraLimiteConta {
         
         if (saldoMedio < 500.0) {
         
-            limite = 0.0; // Sem limite
+            limite = 0.0; 
             
         } else if (saldoMedio <= 1000.0) {
         
-            limite = saldoMedio * 0.08; // 8% do saldo médio
+            limite = saldoMedio * 0.08; 
             
         } else {
         
-            limite = saldoMedio * 0.15; // 15% do saldo médio
+            limite = saldoMedio * 0.15; 
             
         }
 
